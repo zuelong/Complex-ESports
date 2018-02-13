@@ -4,10 +4,13 @@ import NavBar from "./nav/NavBar"
 
 const styles = {
     app: {
-        textAlign: 'center'
+        textAlign: 'center',
+        height: '100%',
     },
     content: {
-        paddingTop: '56px'
+        paddingTop: '56px',
+        height: '100%',
+        boxSizing: 'border-box'
     }
 };
 

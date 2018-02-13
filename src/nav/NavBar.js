@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import Teams from '../pages/teams/Teams'
 import About from '../pages/about/About'
 import Home from '../pages/home/Home'
+import Tournament from '../pages/tournaments/Tournament'
 
 class NavItem extends Component {
 
@@ -71,7 +72,7 @@ class NavBar extends Component {
                     <NavItem load={<Home />} name={'Home'} />
                     <NavItem load={<About />} name={'About'} />
                     <NavItem load={<Teams />} name={'Teams'} />
-                    <NavItem name={'Tournaments'} />
+                    <NavItem load={<Tournament />} name={'Tournaments'} />
                     <div style={styles.whitespace} />
                     <NavItem name={'Login'} />
                 </Toolbar>
